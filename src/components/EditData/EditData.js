@@ -53,8 +53,8 @@ function EditData(props) {
     setUserData(prevState => 
       prevState.concat(preData)
     )
-    
-    console.log(preData)
+    window.alert("Edited data success!")
+    // console.log(preData)
   }
 
   const handleAutoComma = (e) => {

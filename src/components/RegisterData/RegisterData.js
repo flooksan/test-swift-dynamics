@@ -39,6 +39,7 @@ function App() {
       prevState.concat(preData)
     )
     
+    window.alert("Register data success!")
     console.log(preData)
   }
 
