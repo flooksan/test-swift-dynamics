@@ -1,0 +1,15 @@
+ul {
+    
+    display: flex;
+    list-style-type: none; 
+}
+
+.page-item {
+    text-decoration: underline;
+    margin: 5px;
+}
+
+.page-item:hover {
+    color:red;
+}
+

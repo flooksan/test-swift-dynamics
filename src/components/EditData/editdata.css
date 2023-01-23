@@ -1,0 +1,97 @@
+input {
+    height: 8px;
+    font-size: 14px;
+  
+}
+
+span {
+  text-align: center;
+  font-size: 24px;
+}
+
+.app {
+  height: 50vw;
+  position: relative;
+
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+  .id, .gender, .mobile, .passpost, .salary, .title, .date, .btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap:16px;
+  margin-left: 24px;
+}
+
+.date__national select {
+  padding-right: auto;
+}
+
+.id__num1, .id__num5  {
+  text-align: center;
+  width: 10px;
+}
+
+.id__num2 {
+  text-align: center;
+  width: 45px;
+}
+
+.id__num3 {
+  text-align: center;
+  width: 60px;
+}
+
+.id__num4 {
+  text-align: center;
+  width: 25px;
+}
+
+.gender input {
+  height: 16px;
+  margin-right: 8px;
+}
+
+.salary__input {
+  margin-left: 0;
+}
+
+.btn input {
+  cursor: pointer;
+  margin: 24px;
+  padding: 16px;
+  font-size: 16px;
+  text-align: center;
+  /* align text on center */
+  /* line-height: 10px;  */
+}
+
+.btn__submit {
+  line-height: 10px;
+}
+
+.btn button {
+  cursor: pointer;
+  padding: 16px;
+  font-size: 16px;
+  line-height: 0;
+}
+
+.btn button a {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+
+   

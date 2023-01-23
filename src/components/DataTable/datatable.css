@@ -1,0 +1,61 @@
+.checkbox {
+    height: 12px;
+}
+
+.ontop {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.ontop__left {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.ontop__right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.page-continue {
+    cursor: pointer;
+}
+
+.page-continue:hover {
+    color: blue;
+}
+
+/* select div no.3 in ontop__right class */
+.ontop__right div:nth-child(3) { 
+    margin-left: 10px;
+}
+
+.table {
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    /* Collapse table */
+    border-collapse: collapse; 
+
+}
+
+.table__header th {
+    background-color: #86E5FF;
+    color: white;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.table__header th:nth-child(2):hover, th:nth-child(4):hover {
+    color: #86A3B8;
+}
